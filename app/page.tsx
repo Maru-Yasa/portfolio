@@ -3,9 +3,8 @@ import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
 import Particles from '@/components/particles';
 import { Button } from '@/components/ui/button';
-import { CheckIcon, CopyIcon } from '@radix-ui/react-icons';
+import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
 
 
 
@@ -52,7 +51,7 @@ export default function Home() {
           <div className="w-[550px] aspect-square block absolute blur-3xl opacity-10 bg-gradient-to-br animate-spin-slow from-primary to-orange-600 rounded-full -left-56 -bottom-64 -z-[20]"></div>
           <div className="md:pt-24 flex flex-col md:flex-row items-center gap-8" id="about">
             <div className="relative">
-              <img src="/assets/me.png" className="aspect-square rounded-full w-64" alt="" />
+              <Image src="/assets/me.png" className="aspect-square rounded-full w-64" alt="" />
             </div>
             <div>
               <h3 className="text-4xl font-semibold leading-snug">
@@ -61,19 +60,19 @@ export default function Home() {
                 I'm{" "}
                 <span className="relative">
                   Ma'ruf
-                  <img src="/assets/underline-1.svg" className="w-32 absolute right-0 -bottom-1 fill-primary" alt="" />
+                  <Image src="/assets/underline-1.svg" className="w-32 absolute right-0 -bottom-1 fill-primary" alt="" />
                 </span>
                 <br />
                 Full Stack Web <span className="relative">
                   Developer
-                  <img src="/assets/smile.svg" className="w-16 absolute -right-9 -bottom-[2.7rem] fill-primary" alt="" />
+                  <Image src="/assets/smile.svg" className="w-16 absolute -right-9 -bottom-[2.7rem] fill-primary" alt="" />
                 </span>
               </h3>
               <CopyEmail />
             </div>
           </div>
           <div className="pt-9 relative">
-            <img src="/assets/arrow-2.svg" className="w-16 absolute -left-[3.7rem] bottom-[7rem]" alt="" />
+            <Image src="/assets/arrow-2.svg" className="w-16 absolute -left-[3.7rem] bottom-[7rem]" alt="" />
             <p className="text-justify md:w-[45rem]">
               Hello, my name is Muhammad Ma'ruf Ilyasa. I'm a Full Stack Web Developer Enthusiast. I'm currently studying software engineering. I like technologies that's why I'm choosing software engineering as my major. Web technologies is my favorite subject, espicially at back-end, but i would like to create front-end too.
               <br />
