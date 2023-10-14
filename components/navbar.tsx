@@ -1,4 +1,6 @@
 import React from 'react'
+import { ThemeToggler } from './theme-toggler'
+import Link from 'next/link'
 
 function Navbar() {
   return (
@@ -7,11 +9,16 @@ function Navbar() {
       <a href="/" className="font-semibold flex gap-2 items-center text-[17px]">
         maruyasa
       </a>
-      {/* <div className="flex justify-end container">
-        <nav>
-          <a href="/">Blogs</a>
+      <div className="flex justify-end container">
+        <nav className='space-x-4'>
+          <Link href="/links">
+            Links
+          </Link>
+          <Link href="/projects">
+            Projects
+          </Link>
         </nav>
-      </div> */}
+      </div>
     </div>
   </nav>
   )
