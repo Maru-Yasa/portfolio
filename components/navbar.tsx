@@ -1,5 +1,4 @@
 import React from 'react'
-import { ThemeToggler } from './theme-toggler'
 import Link from 'next/link'
 
 function Navbar() {
