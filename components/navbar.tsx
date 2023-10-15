@@ -10,9 +10,6 @@ function Navbar() {
       </a>
       <div className="flex justify-end container">
         <nav className='space-x-4'>
-          <Link href="/links">
-            Links
-          </Link>
           <Link href="/projects">
             Projects
           </Link>
