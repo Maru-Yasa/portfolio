@@ -61,9 +61,9 @@ export default function () {
                 <div className="px-7 md:px16 lg:px-24 relative pt-8">
                     <div className="grid md:grid-cols-3 grid-cols-1 direction-reverse w-full gap-5">
                         <div className="col-span-2 md:columns-2 columns-1 space-y-5">
-                            {projects.map((d) => {
+                            {projects.map((d, index) => {
                                 return (
-                                    <Card>
+                                    <Card key={index}>
                                         <CardProject project={d.project} views={d.views} />
                                     </Card>
                                 )
