@@ -4,7 +4,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className='bg-transparent backdrop-blur bg-opacity-5'>
+        <footer className='bg-transparent backdrop-blur bg-opacity-5 mt-auto'>
             <div className="py-7 px-8 font-semibold text-sm flex justify-between gap-5">
                 <div className='flex gap-5'>
                     <Link href="https://www.linkedin.com/in/marufilyasa/" target='_blank'>

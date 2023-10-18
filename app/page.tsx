@@ -87,7 +87,11 @@ export default function Home() {
             <div className="rounded-full aspect-square w-[500px] -z-[15] bg-white shadow-2xl bg-opacity-25 -left-20 absolute"></div>
             <div className="rounded-full aspect-square w-[500px] -z-10 bg-white bg-opacity-25 shadow-2xl -top-[20rem] -right-[20rem] absolute"></div>
             <h2 className="text-center text-2xl font-bold">Explore My Work <br /> Let's Create Something Incredible Together</h2>
-            <button className="px-5 py-3 bg-white text-primary font-bold rounded-xl">Reach Me</button>
+            <Button size={'lg'} className="bg-white text-primary font-bold" asChild>
+              <Link href={'/reachme'}>
+                Reach Me
+              </Link>
+            </Button>
           </div>
         </div>
       </main>
